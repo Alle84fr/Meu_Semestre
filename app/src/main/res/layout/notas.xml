@@ -3,14 +3,43 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+             android:layout_height="match_parent">
 
     <Button
         android:id="@+id/button"
-        android:layout_width="321dp"
-        android:layout_height="47dp"
-        android:text="Button"
+        android:layout_width="320dp"
+        android:layout_height="46dp"
         android:backgroundTint="#03045E"
+        android:text="Button"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="814dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="324dp"
+        android:layout_height="664dp"
+        app:srcCompat="@drawable/rectangle_38"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="111dp"
+        android:layout_height="50dp"
+        android:text="Filters"
+        android:backgroundTint="#03045E"
+        android:textSize="30dp"
         tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="802dp" />
+        tools:layout_editor_absoluteY="58dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vector"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
