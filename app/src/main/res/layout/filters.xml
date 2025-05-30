@@ -11,7 +11,7 @@
         android:layout_height="881dp"
         app:srcCompat="@drawable/img_fin_b_fund_preto"
         tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="-42dp" />
+        tools:layout_editor_absoluteY="-41dp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -19,7 +19,7 @@
         android:layout_height="64dp"
         app:srcCompat="@drawable/vector"
         tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="40dp" />
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
         android:id="@+id/filters"
@@ -29,7 +29,7 @@
         android:textColor="#03045E"
         android:textSize="40sp"
         tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="48dp" />
+        tools:layout_editor_absoluteY="30dp" />
 
     <Button
         android:id="@+id/button01"
@@ -45,8 +45,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/subtract"
-        tools:layout_editor_absoluteX="304dp"
-        tools:layout_editor_absoluteY="123dp" />
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="229dp" />
 
     <TextView
         android:id="@+id/disciplina"
@@ -56,17 +56,27 @@
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="206dp" />
+        tools:layout_editor_absoluteY="229dp" />
 
     <TextView
-        android:id="@+id/disciplina"
+        android:id="@+id/semestre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Semestre"
+        android:text="Nota da AP1"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="315dp" />
+        tools:layout_editor_absoluteY="338dp" />
+
+    <TextView
+        android:id="@+id/ap2"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:text="Nota da AP2"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="459dp" />
 
     <TextView
         android:id="@+id/dados_do_semestre"
@@ -75,20 +85,44 @@
         android:text="Dados do semestre"
         android:textColor="#FFFFFF"
         android:textSize="25sp"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="123dp" />
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="140dp" />
 
     <EditText
-        android:id="@+id/caixaTexto"
+        android:id="@+id/caixaAp2"
+        android:layout_width="171dp"
+        android:layout_height="32dp"
+        android:background="@drawable/rounded_background"
+        android:hint=""
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <EditText
+        android:id="@+id/caixaAp1"
+        android:layout_width="171dp"
+        android:layout_height="32dp"
+        android:background="@drawable/rounded_background"
+        android:hint=""
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <EditText
+        android:id="@+id/caixaDisciplina"
         android:layout_width="178dp"
-        android:layout_height="52dp"
+        android:layout_height="33dp"
         android:background="@drawable/rounded_background"
         android:hint="Digite algo aqui"
         android:inputType="text"
         android:padding="12dp"
         android:textColor="#"
         tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="250dp" />
+        tools:layout_editor_absoluteY="273dp" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -96,7 +130,7 @@
         android:layout_height="2dp"
         app:srcCompat="@drawable/line_1"
         tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="170dp" />
+        tools:layout_editor_absoluteY="195dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
