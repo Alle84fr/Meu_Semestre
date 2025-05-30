@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ctivity_5_final">
+
+    <ImageView
+        android:id="@+id/img_fin_cinza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/img_fin_a_fund_cinza"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="-114dp" />
+
+    <ImageView
+        android:id="@+id/img_preto"
+        android:layout_width="405dp"
+        android:layout_height="408dp"
+        app:srcCompat="@drawable/img_fin_b_fund_preto"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/text_fin_nomes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alessandra Furlanetto Rigonatti\n
+2401151\n
+\n
+Eduardo Nunes\n
+2401234\n
+\n
+Thainá Foltran de Lima\n
+2401219\n
+\n
+Gabriel de Souza Viana\n
+2400215\n"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <TextView
+        android:id="@+id/text_fin_titu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESENVOLVEDORES"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <ImageView
+        android:id="@+id/img_fin_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/img_fin_c_logo"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bnt_fin_voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_fin_d_botao"
+        android:text="Voltar"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

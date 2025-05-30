@@ -13,6 +13,21 @@
         android:theme="@style/Theme.MeuSemestre"
         tools:targetApi="31">
         <activity
+            android:name=".ctivity_5_final"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_4_plano"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_1_login"
+            android:exported="false" />
+        <activity
+            android:name=".actyvity_01_login"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity_login"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
