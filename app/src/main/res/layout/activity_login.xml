@@ -23,12 +23,34 @@
         tools:layout_editor_absoluteX="113dp"
         tools:layout_editor_absoluteY="81dp" />
 
-    <androidx
-        android:id="@+id/button2"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_log_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="396dp" />
+        android:background="@drawable/btn_inic_c_bot_top"
+        android:text="PLANO"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_inic_c_bot_top"
+        android:text="LOGIN"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_inic_c_bot_top"
+        android:text="CADASTRAR"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="480dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

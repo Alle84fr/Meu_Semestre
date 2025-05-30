@@ -7,6 +7,16 @@
     android:layout_height="match_parent"
     tools:context=".FinalActivity">
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_log_login3"
+        android:layout_width="125dp"
+        android:layout_height="53dp"
+        android:background="@drawable/btn_inic_c_bot_top"
+        android:text="PLANO"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="489dp" />
+
     <ImageView
         android:id="@+id/img_fin_cinza"
         android:layout_width="wrap_content"
@@ -57,7 +67,7 @@ Gabriel de Souza Viana\n
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/img_fin_c_logo"
-        tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="462dp" />
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="466dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
