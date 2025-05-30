@@ -23,34 +23,6 @@
         tools:layout_editor_absoluteX="36dp"
         tools:layout_editor_absoluteY="52dp" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_plan_assi"
-        android:layout_width="109dp"
-        android:layout_height="41dp"
-        android:background="@drawable/btn_inic_c_bot_top"
-        android:text="Assinar"
-        tools:layout_editor_absoluteX="230dp"
-        tools:layout_editor_absoluteY="442dp" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_plan_voltar"
-        android:layout_width="96dp"
-        android:layout_height="51dp"
-        android:background="@drawable/btn_plan_d_bot_vo"
-        android:paddingBottom="21dp"
-        android:text="Voltar"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="555dp" />
-
-    <TextView
-        android:id="@+id/text_plan_anu_1"
-        android:layout_width="238dp"
-        android:layout_height="24dp"
-        android:text="Guarda seu nome."
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="125dp" />
-
     <TextView
         android:id="@+id/text_plan_anu_"
         android:layout_width="238dp"
@@ -63,79 +35,7 @@
         tools:layout_editor_absoluteY="78dp" />
 
     <TextView
-        android:id="@+id/text_plan_anu_9"
-        android:layout_width="230dp"
-        android:layout_height="25dp"
-        android:text="Gráfico da evolução do rendimento"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="388dp" />
-
-    <TextView
-        android:id="@+id/text_plan_anu_7"
-        android:layout_width="242dp"
-        android:layout_height="25dp"
-        android:text="Alertar de matérias abaixo da mádia"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="329dp" />
-
-    <TextView
-        android:id="@+id/text_plan_anu_4"
-        android:layout_width="218dp"
-        android:layout_height="26dp"
-        android:text="Notas e faltas ficam registradas"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="291dp" />
-
-    <TextView
-        android:id="@+id/text_plan_anu_6"
-        android:layout_width="208dp"
-        android:layout_height="24dp"
-        android:text="Alerta de dia de prova"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="257dp" />
-
-    <TextView
-        android:id="@+id/text_plan_anu_5"
-        android:layout_width="230dp"
-        android:layout_height="26dp"
-        android:text="Peso das atividas ficam registrados"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="221dp" />
-
-    <TextView
-        android:id="@+id/text_plan_anu_3"
-        android:layout_width="218dp"
-        android:layout_height="24dp"
-        android:text="Adiciona mais de uma matéria"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="189dp" />
-
-    <TextView
-        android:id="@+id/text_plan_anu_2"
-        android:layout_width="226dp"
-        android:layout_height="24dp"
-        android:text="Grava o nome da faculdade"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="157dp" />
-
-    <TextView
-        android:id="@+id/text_plan_anu_8"
-        android:layout_width="212dp"
-        android:layout_height="29dp"
-        android:text="Alerta de dia entrega"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="359dp" />
-
-    <TextView
-        android:id="@+id/text_grat"
+        android:id="@+id/text_texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Versão gratuíta permite uma matéria por vez.\n
@@ -153,5 +53,22 @@ Deve digitar os dados cada vez que for usar."
         android:textStyle="bold"
         tools:layout_editor_absoluteX="139dp"
         tools:layout_editor_absoluteY="614dp" />
+
+    <TextView
+        android:id="@+id/text_texto_anua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guarda seu nome\n\n
+Grava o nome da faculdade\n\n
+Adiciona mais de uma matéria\n\n
+Notas e faltas ficam registradas \n\n
+Peso das atividas ficam registrados\n\n
+Alerta de dia de prova\n\n
+Alerta de dia entrega\n\n
+Alertar de matérias abaixo da mádia\n\n
+Gráfico da evolução do rendimento"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="132dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

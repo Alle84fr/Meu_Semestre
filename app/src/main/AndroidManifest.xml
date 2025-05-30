@@ -19,7 +19,7 @@
             android:name=".PlanoActivity"
             android:exported="false" />
         <activity
-            android:name=".InicialActivity"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".actyvity_01_login"

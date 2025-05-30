@@ -60,13 +60,4 @@ Gabriel de Souza Viana\n
         tools:layout_editor_absoluteX="193dp"
         tools:layout_editor_absoluteY="462dp" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/bnt_fin_voltar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/btn_fin_d_botao"
-        android:text="Voltar"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="487dp" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
