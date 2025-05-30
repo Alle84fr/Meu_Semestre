@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ctivity_5_final">
+    tools:context=".FinalActivity">
 
     <ImageView
         android:id="@+id/img_fin_cinza"
@@ -59,14 +59,5 @@ Gabriel de Souza Viana\n
         app:srcCompat="@drawable/img_fin_c_logo"
         tools:layout_editor_absoluteX="193dp"
         tools:layout_editor_absoluteY="462dp" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/bnt_fin_voltar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/btn_fin_d_botao"
-        android:text="Voltar"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="487dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

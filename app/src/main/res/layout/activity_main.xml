@@ -17,4 +17,21 @@
 
     </com.google.android.material.chip.ChipGroup>
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:background="@drawable/btn_inic_c_bot_top"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/img_fin_b_fund_preto"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="371dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

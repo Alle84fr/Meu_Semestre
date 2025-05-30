@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlanoActivity">
+
+    <ImageView
+        android:id="@+id/img_plan_branca"
+        android:layout_width="339dp"
+        android:layout_height="81dp"
+        app:srcCompat="@drawable/img_plan_b_fundbranco"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="606dp" />
+
+    <ImageView
+        android:id="@+id/img_plan_preta"
+        android:layout_width="336dp"
+        android:layout_height="469dp"
+        app:srcCompat="@drawable/img_plan_a_fundpreto"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <TextView
+        android:id="@+id/text_plan_anu_"
+        android:layout_width="238dp"
+        android:layout_height="24dp"
+        android:text="PLANO ANUAL"
+        android:textColor="#FFD180"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <TextView
+        android:id="@+id/text_texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Versão gratuíta permite uma matéria por vez.\n
+Deve digitar os dados cada vez que for usar."
+        android:textSize="13sp"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="639dp" />
+
+    <TextView
+        android:id="@+id/text_grat_tit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLANO GRATUITO"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+    <TextView
+        android:id="@+id/text_texto_anua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guarda seu nome\n\n
+Grava o nome da faculdade\n\n
+Adiciona mais de uma matéria\n\n
+Notas e faltas ficam registradas \n\n
+Peso das atividas ficam registrados\n\n
+Alerta de dia de prova\n\n
+Alerta de dia entrega\n\n
+Alertar de matérias abaixo da mádia\n\n
+Gráfico da evolução do rendimento"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
