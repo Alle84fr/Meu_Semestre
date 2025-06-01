@@ -7,67 +7,81 @@
     android:layout_height="match_parent"
     tools:context=".FinalActivity">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button_log_login3"
-        android:layout_width="125dp"
-        android:layout_height="53dp"
-        android:background="@drawable/btn_inic_c_bot_top"
-        android:text="PLANO"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="489dp" />
-
     <ImageView
         android:id="@+id/img_fin_cinza"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/img_fin_a_fund_cinza"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="-114dp" />
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="88dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/img_fin_a_fund_cinza" />
 
     <ImageView
-        android:id="@+id/img_preto"
-        android:layout_width="405dp"
-        android:layout_height="408dp"
-        app:srcCompat="@drawable/img_fin_b_fund_preto"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="35dp" />
-
-    <TextView
-        android:id="@+id/text_fin_nomes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Alessandra Furlanetto Rigonatti\n
-2401151\n
-\n
-Eduardo Nunes\n
-2401234\n
-\n
-Thainá Foltran de Lima\n
-2401219\n
-\n
-Gabriel de Souza Viana\n
-2400215\n"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="154dp" />
+        android:id="@+id/img_fin_pret"
+        android:layout_width="284dp"
+        android:layout_height="457dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="136dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_fin_cinza"
+        app:layout_constraintStart_toStartOf="@+id/img_fin_cinza"
+        app:srcCompat="@drawable/img_fin_b_fund_preto" />
 
     <TextView
         android:id="@+id/text_fin_titu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DESENVOLVEDORES"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="44dp"
+        android:text="Desenvolvedores"
         android:textColor="@color/white"
-        android:textSize="18dp"
-        tools:layout_editor_absoluteX="123dp"
-        tools:layout_editor_absoluteY="91dp" />
+        android:textSize="26dp"
+        app:layout_constraintStart_toStartOf="@+id/img_fin_pret"
+        app:layout_constraintTop_toTopOf="@+id/img_fin_pret" />
 
-    <ImageView
-        android:id="@+id/img_fin_log"
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/img_fin_c_logo"
-        tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="466dp" />
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="56dp"
+        android:text="Alessandra F Rigonatti\n
+2401151\n\n
+Eduardo Nunes\n
+2401234\n\n
+Thainá Foltran de Lima\n
+2401219\n\n
+Gabriel de Souza Viana\n
+2400215"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@+id/img_fin_pret"
+        app:layout_constraintTop_toBottomOf="@+id/text_fin_titu" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/img_fin_logo"
+        android:layout_width="152dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_fin_cinza"
+        app:layout_constraintEnd_toEndOf="@+id/img_fin_cinza"
+        app:srcCompat="@drawable/img_fin_c_logo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_fin_volt"
+        android:layout_width="120dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/btn_fin_d_botao"
+        android:text="voltar"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/img_fin_cinza"
+        app:layout_constraintStart_toStartOf="@+id/img_fin_cinza" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

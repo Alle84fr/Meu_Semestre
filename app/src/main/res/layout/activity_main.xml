@@ -10,6 +10,7 @@
     tools:context=".MainActivity" >
 
     <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="73dp"
@@ -17,21 +18,72 @@
 
     </com.google.android.material.chip.ChipGroup>
 
-    <Button
-        android:id="@+id/button"
+    <ImageView
+        android:id="@+id/img_main_fundo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        android:background="@drawable/btn_inic_c_bot_top"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="251dp" />
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="214dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_inic_peto" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/img_main_logo"
+        android:layout_width="171dp"
+        android:layout_height="208dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_inici_logo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_main_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/img_fin_b_fund_preto"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="371dp" />
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/btn_inic_botao"
+        android:text="login"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/img_main_fundo"
+        app:layout_constraintTop_toTopOf="@+id/img_main_fundo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_main_cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn_inic_botao"
+        android:text="cadastrar"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/img_main_fundo"
+        app:layout_constraintTop_toBottomOf="@+id/btn_main_login" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_main_plano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn_inic_botao"
+        android:text="Plano"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/img_main_fundo"
+        app:layout_constraintTop_toBottomOf="@+id/btn_main_cadastrar" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_main_final"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn_inic_botao"
+        android:text="Desenvolvedores"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/img_main_fundo"
+        app:layout_constraintTop_toBottomOf="@+id/btn_main_plano" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -19,6 +19,12 @@
             android:name=".PlanoActivity"
             android:exported="false" />
         <activity
+            android:name=".CadastroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InicialActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity

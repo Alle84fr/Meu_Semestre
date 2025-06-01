@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity">
+
+    <ImageView
+        android:id="@+id/img_cad_cinza"
+        android:layout_width="275dp"
+        android:layout_height="505dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="78dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_cad_cinza" />
+
+    <TextView
+        android:id="@+id/txt_cad_titu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="48dp"
+
+        android:text="Cadastro"
+        android:textColor="#050000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/img_cad_cinza"
+        app:layout_constraintTop_toTopOf="@+id/img_cad_cinza" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_cad_voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/btn_cad_botao_out"
+        android:paddingBottom="20dp"
+        android:text="voltar"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_cad_cinza" />
+
+    <EditText
+        android:id="@+id/editText_cad_nome"
+        android:layout_width="340dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="144dp"
+        android:background="@drawable/img_cad_b_fund_preto"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingLeft="35dp"
+        android:paddingBottom="10dp"
+        android:text="Nome:"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/img_cad_cinza"
+        app:layout_constraintTop_toTopOf="@+id/img_cad_cinza" />
+
+    <EditText
+        android:id="@+id/editText_cad_email"
+        android:layout_width="340dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/img_cad_b_fund_preto"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="35dp"
+        android:paddingBottom="10dp"
+        android:text="E-mail:"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/img_cad_cinza"
+        app:layout_constraintTop_toBottomOf="@+id/editText_cad_nome" />
+
+
+    <ImageView
+        android:id="@+id/img_cad_funperto_pass"
+        android:layout_width="440dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="@+id/img_cad_cinza"
+        app:layout_constraintTop_toBottomOf="@+id/editText_cad_email"
+        app:srcCompat="@drawable/img_cad_b_fund_preto" />
+
+    <TextView
+        android:id="@+id/txt_cad_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:text="Senha:"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@+id/img_cad_funperto_pass"
+        app:layout_constraintTop_toTopOf="@+id/img_cad_funperto_pass" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
