@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ErrorActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="331dp"
+        android:layout_height="511dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_fin_b_fund_preto" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="222dp"
+        android:layout_height="282dp"
+        android:layout_marginStart="176dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.541"
+        app:srcCompat="@drawable/meuero" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="404"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="321dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_erro_voltar"
+        android:layout_width="117dp"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_inic_botao"
+        android:text="voltar"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="478dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
