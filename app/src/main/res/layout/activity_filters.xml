@@ -37,8 +37,8 @@
         android:layout_height="47dp"
         android:backgroundTint="#03045E"
         android:text="Enviar"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="813dp" />
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="607dp" />
 
     <ImageView
         android:id="@+id/rosto"
