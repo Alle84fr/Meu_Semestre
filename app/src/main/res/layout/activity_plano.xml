@@ -21,9 +21,9 @@
         android:id="@+id/img_plan_bran"
         android:layout_width="315dp"
         android:layout_height="89dp"
-        android:layout_marginStart="48dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="96dp"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/img_plan_preto"
         app:layout_constraintTop_toBottomOf="@+id/img_plan_preto"
         app:srcCompat="@drawable/img_plan_b_branco" />
 
@@ -89,23 +89,22 @@
         android:id="@+id/text_plan_titu_grat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
         android:layout_marginTop="8dp"
         android:text="Plano Gratuito"
         android:textColor="#050000"
         android:textSize="18dp"
-        app:layout_constraintStart_toStartOf="@+id/img_plan_bran"
+        app:layout_constraintStart_toStartOf="@+id/text_plan_titu_Pago"
         app:layout_constraintTop_toTopOf="@+id/img_plan_bran" />
 
     <TextView
         android:id="@+id/text_plan_tex_grat"
         android:layout_width="233dp"
         android:layout_height="47dp"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="28dp"
         android:text="Com plano gratuito você poderá:\n
 - Verificar uma matéria por vez, o registro \nnão fica listado."
         android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/img_plan_bran"
+        app:layout_constraintStart_toStartOf="@+id/text_plan_texto"
         app:layout_constraintTop_toTopOf="@+id/text_plan_titu_grat" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -90,9 +90,8 @@
 
     <EditText
         android:id="@+id/caixaAp2"
-        android:layout_width="171dp"
-        android:layout_height="32dp"
-        android:background="@drawable/rounded_background"
+        android:layout_width="179dp"
+        android:layout_height="42dp"
         android:hint=""
         android:inputType="text"
         android:padding="12dp"
@@ -102,9 +101,9 @@
 
     <EditText
         android:id="@+id/caixaAp1"
-        android:layout_width="171dp"
-        android:layout_height="32dp"
-        android:background="@drawable/rounded_background"
+        android:layout_width="178dp"
+        android:layout_height="40dp"
+       android:background="@drawable/rectangle_37"
         android:hint=""
         android:inputType="text"
         android:padding="12dp"
@@ -116,7 +115,7 @@
         android:id="@+id/caixaDisciplina"
         android:layout_width="178dp"
         android:layout_height="33dp"
-        android:background="@drawable/rounded_background"
+        android:background="@drawable/rectangle_37"
         android:hint="Digite algo aqui"
         android:inputType="text"
         android:padding="12dp"

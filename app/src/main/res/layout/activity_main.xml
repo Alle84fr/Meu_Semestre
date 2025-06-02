@@ -54,36 +54,33 @@
         android:id="@+id/btn_main_cadastrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/btn_inic_botao"
         android:text="cadastrar"
         android:textColor="@color/white"
-        app:layout_constraintStart_toStartOf="@+id/img_main_fundo"
+        app:layout_constraintStart_toStartOf="@+id/btn_main_login"
         app:layout_constraintTop_toBottomOf="@+id/btn_main_login" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_main_plano"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/btn_inic_botao"
         android:text="Plano"
         android:textColor="@color/white"
-        app:layout_constraintStart_toStartOf="@+id/img_main_fundo"
+        app:layout_constraintStart_toStartOf="@+id/btn_main_cadastrar"
         app:layout_constraintTop_toBottomOf="@+id/btn_main_cadastrar" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_main_final"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/btn_inic_botao"
         android:text="Desenvolvedores"
         android:textColor="@color/white"
-        app:layout_constraintStart_toStartOf="@+id/img_main_fundo"
+        app:layout_constraintStart_toStartOf="@+id/btn_main_plano"
         app:layout_constraintTop_toBottomOf="@+id/btn_main_plano" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
