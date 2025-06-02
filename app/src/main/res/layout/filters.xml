@@ -95,7 +95,7 @@
         android:hint=""
         android:inputType="text"
         android:padding="12dp"
-        android:textColor="#"
+        android:textColor="@color/white"
         tools:layout_editor_absoluteX="53dp"
         tools:layout_editor_absoluteY="509dp" />
 
@@ -107,7 +107,7 @@
         android:hint=""
         android:inputType="text"
         android:padding="12dp"
-        android:textColor="#"
+        android:textColor="@color/white"
         tools:layout_editor_absoluteX="53dp"
         tools:layout_editor_absoluteY="396dp" />
 
@@ -119,7 +119,7 @@
         android:hint="Digite algo aqui"
         android:inputType="text"
         android:padding="12dp"
-        android:textColor="#"
+        android:textColor="@color/white"
         tools:layout_editor_absoluteX="53dp"
         tools:layout_editor_absoluteY="273dp" />
 
