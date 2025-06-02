@@ -13,14 +13,6 @@
         tools:layout_editor_absoluteX="18dp"
         tools:layout_editor_absoluteY="72dp" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="33dp"
-        android:layout_height="64dp"
-        app:srcCompat="@drawable/vector"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="16dp" />
-
     <TextView
         android:id="@+id/filters"
         android:layout_width="90dp"
@@ -131,6 +123,14 @@
         app:srcCompat="@drawable/line_1"
         tools:layout_editor_absoluteX="45dp"
         tools:layout_editor_absoluteY="195dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vector_filters"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="33dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

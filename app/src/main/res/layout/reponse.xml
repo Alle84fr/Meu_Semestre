@@ -37,14 +37,6 @@
         tools:layout_editor_absoluteX="117dp"
         tools:layout_editor_absoluteY="154dp" />
 
-    <ImageView
-        android:id="@+id/image_repo_simb"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/vector"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="45dp" />
-
     <Button
         android:id="@+id/button_repo_enviar"
         android:layout_width="321dp"
@@ -63,5 +55,13 @@
         app:srcCompat="@drawable/line_1"
         tools:layout_editor_absoluteX="43dp"
         tools:layout_editor_absoluteY="209dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vector"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="27dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
