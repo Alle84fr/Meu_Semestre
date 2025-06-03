@@ -12,9 +12,12 @@
         android:layout_height="654dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/img_fin_b_fund_preto" />
+
 
     <TextView
         android:id="@+id/text_repo_resu"
@@ -25,56 +28,70 @@
         android:textColor="#03045E"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/image_repo_pret"
-        tools:layout_editor_absoluteX="26dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/text_repo_titu"
         android:layout_width="177dp"
         android:layout_height="41dp"
-        android:text="Desenpenho"
+        android:layout_marginTop="168dp"
+        android:text="Desempenho"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="154dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/text_resultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:text="Média e status aparecerão aqui"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintTop_toBottomOf="@id/text_repo_titu"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="32dp" />
-
+        app:layout_constraintTop_toBottomOf="@id/text_repo_titu" />
 
     <ImageView
         android:id="@+id/image_repo_simb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/vector"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="45dp" />
+        app:layout_constraintBottom_toTopOf="@+id/image_repo_pret"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631"
+        app:srcCompat="@drawable/vector" />
 
     <Button
         android:id="@+id/button_repo_enviar"
         android:layout_width="321dp"
         android:layout_height="47dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="88dp"
+        android:layout_marginBottom="76dp"
         android:backgroundTint="#03045E"
         android:text="Enviar"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/image_repo_linha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/line_1"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="209dp" />
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image_repo_pret"
+        app:srcCompat="@drawable/line_1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

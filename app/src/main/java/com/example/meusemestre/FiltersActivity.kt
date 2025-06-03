@@ -6,11 +6,17 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.meusemestre.databinding.ActivityFiltersBinding
 
 class FiltersActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityFiltersBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_filters)
+
+        binding = ActivityFiltersBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         val ap1EditText = findViewById<EditText>(R.id.caixaAp1)
         val ap2EditText = findViewById<EditText>(R.id.caixaAp2)
@@ -32,7 +38,15 @@ class FiltersActivity : AppCompatActivity() {
 
             } else {
                 Toast.makeText(this, "Digite notas válidas", Toast.LENGTH_SHORT).show()
-            }
+
+               }
+            // botão
+            binding.button01.setOnClickListener {
+            startActivity(Intent(this, reponseActivity::class.java))
+        }
         }
     }
 }
+
+
+

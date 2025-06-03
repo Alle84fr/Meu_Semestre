@@ -35,67 +35,90 @@
         android:id="@+id/btn_cad_voltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="83dp"
         android:background="@drawable/btn_cad_botao_out"
         android:paddingBottom="20dp"
         android:text="voltar"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_cad_cinza" />
 
-    <androidx.appcompat.widget.AppCompatEditText
-        android:id="@+id/editText_cad_nome"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_cad_cadastrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="83dp"
+        android:background="@drawable/btn_cad_botao_out"
+        android:paddingBottom="20dp"
+        android:text="cadastrar"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.585"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_cad_cinza" />
+
+    <EditText
+        android:id="@+id/editText_cad_nome"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="208dp"
         android:background="@drawable/img_cad_b_fund_preto"
         android:ems="10"
         android:hint="Name:"
         android:inputType="text"
         android:paddingLeft="35dp"
-        android:paddingBottom="20dp"
         android:textColorHint="@color/white"
-        android:textSize="14dp"
-        app:layout_constraintStart_toStartOf="@+id/img_cad_cinza"
-        app:layout_constraintTop_toTopOf="@+id/img_cad_cinza" />
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:importantForAccessibility="yes"/>
 
-    <androidx.appcompat.widget.AppCompatEditText
+    <EditText
         android:id="@+id/editText_cad_email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/img_cad_b_fund_preto"
         android:ems="10"
         android:hint="E-mail: "
         android:inputType="textEmailAddress"
         android:paddingLeft="35dp"
-        android:paddingBottom="20dp"
         android:textColorHint="@color/white"
-        android:textSize="14dp"
-        app:layout_constraintStart_toStartOf="@+id/editText_cad_nome"
-        tools:layout_editor_absoluteY="313dp" />
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_cad_nome"
+        android:importantForAccessibility="yes"/>
 
-    <androidx.appcompat.widget.AppCompatTextView
+    <EditText
         android:id="@+id/editText_cad_password"
-        android:layout_width="246dp"
-        android:layout_height="79dp"
-        android:layout_marginStart="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_marginTop="21dp"
         android:background="@drawable/img_cad_b_fund_preto"
-        android:ems="10"
         android:hint="Senha"
         android:inputType="numberPassword"
         android:paddingLeft="35dp"
-        android:paddingTop="20dp"
         android:textColorHint="@color/white"
-        android:textSize="14dp"
-        app:layout_constraintStart_toStartOf="@+id/editText_cad_email"
-        tools:layout_editor_absoluteY="419dp" />
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_cad_email"
+        android:importantForAccessibility="yes"/>
 
     <!--plaintext - texto simples
     Number (decimal) numeros
     textInputLayout - contêibner  que melhora a aparência do texto  - -->
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
