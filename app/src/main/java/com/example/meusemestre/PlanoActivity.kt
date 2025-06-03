@@ -23,7 +23,7 @@ class PlanoActivity : AppCompatActivity() {
 
         var clickListener = View.OnClickListener{view -> when (view.id){
             R.id.btn_plan_volt -> startActivity(Intent(this, MainActivity::class.java))
-            R.id.btn_plan_assin -> startActivity(Intent(this, PlanoActivity::class.java))
+            R.id.btn_plan_assin -> startActivity(Intent(this, ErroPlanoActivity::class.java))
         }
         }
         binding.btnPlanVolt.setOnClickListener(clickListener)
