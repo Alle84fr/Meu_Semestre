@@ -24,7 +24,7 @@ class CadastroActivity : AppCompatActivity() {
 
         var clickListener = View.OnClickListener{view -> when (view.id){
             R.id.btn_cad_voltar -> startActivity(Intent(this, MainActivity::class.java))
-            R.id.btn_main_cadastrar -> startActivity(Intent(this, ErroPlanoActivity::class.java))
+            R.id.btn_cad_cadastrar -> startActivity(Intent(this, ErroPlanoActivity::class.java))
         }
         }
         binding.btnCadVoltar.setOnClickListener(clickListener)
