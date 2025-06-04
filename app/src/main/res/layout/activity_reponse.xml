@@ -37,6 +37,30 @@
         tools:layout_editor_absoluteX="117dp"
         tools:layout_editor_absoluteY="154dp" />
 
+<<<<<<< HEAD:app/src/main/res/layout/reponse.xml
+=======
+    <TextView
+        android:id="@+id/text_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Média e status aparecerão aqui"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/text_repo_titu"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp" />
+
+
+    <ImageView
+        android:id="@+id/image_repo_simb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vector"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+>>>>>>> gabriel:app/src/main/res/layout/activity_reponse.xml
     <Button
         android:id="@+id/button_repo_enviar"
         android:layout_width="321dp"
