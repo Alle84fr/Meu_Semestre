@@ -1,7 +1,11 @@
 # 📱 App Meu Semestre
 
-O Aplicativo consiste em realizar o calculo de AP1 e AP2 gerando a **média final**, e indica se o aluno foi aprovado ou reprovado.
+A ideia de criação do app Meu Semestre veio devido à desorganização que todo estudante enfrenta no final do semestre.
+O app veio para para resolver esse problema de maneira simples, ele auxilia na organização das notas, do calendário acadêmico, faltas e prazos.
+O público alvo são os alunos da Faculdade Impacta.
 
+### 📚 Funcionalidades
+O Aplicativo consiste em realizar o calculo de AP1 e AP2 gerando a **média final**, e indica se o aluno foi aprovado ou reprovado.
 O usuário consegue se cadastrar e/ou fazer o login, ele insere as notas e o app calcula automaticamente sua média.
 
 ### 🎓 Este app tem duas opções de acesso:
