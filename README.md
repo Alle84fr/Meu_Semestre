@@ -31,7 +31,7 @@ https://github.com/seu-usuario/MeuSemestre.git
 
 
 ###     🧑‍💻 Desenvolvedores
-- Alessandra Rigonatti - RA: 2401151
-- Eduardo Nunes - RA: 2401234
-- Gabriel Viana - RA: 2400215
-- Thainá Foltran - RA: 2401219
+- Alessandra Rigonatti - RA: 240
+- Eduardo Nunes - RA: 240
+- Gabriel Viana - RA: 240
+- Thainá Foltran - RA: 240
